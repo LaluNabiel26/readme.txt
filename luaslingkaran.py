@@ -1,3 +1,5 @@
-jari2 = float(input("Input jari-jari lingkaran: "))
-luas = 3.14 * jari2 * jari2
-print("Luas lingkaran =",round(luas,2))
+jari_jari = float(input("Tuliskan jari-jari dalam cm: "))
+phi = 3.14
+luas = phi * jari_jari * jari_jari
+print("Luas lingkaran adalah”,luas, “cm”)
+
