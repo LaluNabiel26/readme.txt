@@ -1,5 +1,7 @@
-x = int(input("Input sebuah angka bulat: "))
-if (x % 2 == 0):
-  print(x,"adalah bilangan genap")
+angka = int(input("Masukkan sebuah angka: "))
+if angka % 2 == 0:
+    hasil = "Angka tersebut genap"
 else:
-  print(x,"adalah bilangan ganjil")
+    hasil = "Angka tersebut ganjil"
+print(hasil)
+
